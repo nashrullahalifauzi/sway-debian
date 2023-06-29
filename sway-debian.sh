@@ -45,7 +45,7 @@ apt install brightnessctl
 apt install wob
 
 # network manager
-apt network-manager policykit-1-gnome network-manager-gnome
+apt install network-manager policykit-1-gnome network-manager-gnome
 
 # command line interface to the wayland clipboard
 apt install clipman wl-clipboard
