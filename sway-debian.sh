@@ -55,7 +55,7 @@ apt install clipman wl-clipboard
 # terminal
 apt install foot alacritty terminator
 # mkdir -p ~/.config/foot
-# cp /usr/share/foot/foot.ini ~/.config/foot/foot.ini
+# cp /etc/xdg/foot/foot.ini ~/.config/foot/foot.ini
 
 # text editor
 apt install vim micro kate geany
