@@ -20,7 +20,7 @@ apt install libgtk-layer-shell-dev
 # sway and additional packages
 apt install sway sway-backgrounds swaybg swayidle swaylock xdg-desktop-portal-wlr wlogout waybar wdisplays wlr-randr bemenu
 # mkdir -p ~/.config/sway
-# cp /etc/sway/config ~/.config/sway/
+# cp /etc/xdg/foot/foot.ini ~/.config/sway/
 
 # image viewer for sway/wayland
 apt install swayimg
