@@ -23,8 +23,7 @@ apt install sway sway-backgrounds swaybg swayidle swaylock xdg-desktop-portal-wl
 apt install swayimg
 
 # audio and video processing engine multimedia server
-apt install wireplumber pipewire-audio pipewire pipewire-media-session pipewire-alsa pipewire-jack pipewire-pulse libspa-0.2-jack pulseaudio-utils
-systemctl --user --now enable wireplumber.service
+apt install pipewire-audio pipewire pipewire-alsa pipewire-jack pipewire-pulse libspa-0.2-jack pulseaudio-utils
 
 # bluetooth
 apt install bluez libspa-0.2-bluetooth bluetooth blueman
@@ -34,8 +33,8 @@ service bluetoth start
 apt install qtwayland5
 
 # display manager
-apt install lightdm lightdm-gtk-greeter-settings
-systemctl enable lightdm
+# apt install lightdm lightdm-gtk-greeter-settings
+# systemctl enable lightdm
 # dpkg-reconfigure lightdm
 
 # brightness control
@@ -94,7 +93,7 @@ systemctl enable avahi-daemon
 apt install neofetch
 
 # fonts and icons
-apt install fonts-jetbrains-mono fonts-firacode fonts-liberation2 fonts-ubuntu fonts-cascadia-code fonts-liberation fonts-terminus papirus-icon-theme fonts-font-awesome ttf-mscorefonts-installer fonts-crosextra-carlito fonts-crosextra-caladea
+apt install fonts-jetbrains-mono fonts-firacode fonts-liberation2 fonts-ubuntu fonts-liberation fonts-terminus papirus-icon-theme fonts-font-awesome ttf-mscorefonts-installer fonts-crosextra-carlito fonts-crosextra-caladea
 
 # color temperature
 apt install gammastep wlsunset
