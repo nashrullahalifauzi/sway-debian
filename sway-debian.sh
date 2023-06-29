@@ -111,4 +111,5 @@ apt install lxappearance
 apt install cage kanshi wayout drm-info wev wtype yambar ffmpeg light mpv mpd mpc viewnior imagemagick gir1.2-polkit-1.0 p7zip-full p7zip-rar lzma lzma-dev rar unzip unrar-free p7zip ncompress file-roller
 
 # folders in user directory
+# /home/~/
 xdg-user-dirs-update
