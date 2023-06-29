@@ -2,6 +2,9 @@
 
 # add sudo before apt when you are sudoers.
 
+# wget and etc
+apt install wget curl apt-transport-https software-properties-common gpg lsb-release ca-certificates
+
 # build essential, intel microcode, etc
 apt install firmware-linux build-essential intel-microcode cmake libwayland-dev libegl1-mesa-dev libgles2-mesa-dev libdrm-dev libgbm-dev libinput-dev libxkbcommon-dev libudev-dev libpixman-1-dev libcap-dev libxcb1-dev libxcb-composite0-dev libxcb-xfixes0-dev libxcb-xinput-dev libxcb-image0-dev libxcb-render-util0-dev libx11-xcb-dev libxcb-icccm4-dev freerdp2-dev libwinpr2-dev libpng-dev libavutil-dev libavcodec-dev libavformat-dev universal-ctags libxcb-util0-dev autoconf libtool scdoc libnm-dev libglib2.0-dev libxfce4ui-2-dev libpolkit-agent-1-dev make meson ninja-build ntfs-3g btrfs-progs libavcodec-extra firmware-iwlwifi
 
